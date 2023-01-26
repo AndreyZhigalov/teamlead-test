@@ -137,13 +137,13 @@
   background-position: center center;
 }
 .promo__property:first-child::before {
-  background-image: url(/img/strong-small.png);
+  background-image: url(../img/strong-small.png);
 }
 .promo__property:nth-child(2)::before {
-  background-image: url(/img/time-small.png);
+  background-image: url(../img/time-small.png);
 }
 .promo__property:last-child::before {
-  background-image: url(/img/wow-small.png);
+  background-image: url(../img/wow-small.png);
 }
 .promo__property:not(:last-child) {
   margin-bottom: 20px;
@@ -284,7 +284,7 @@
 
 .compound {
   padding: 100px 0;
-  background: url(/img/lines.svg) center center no-repeat;
+  background: url(../img/lines.svg) center center no-repeat;
   background-size: 600px;
 }
 .compound__list {
@@ -332,7 +332,7 @@
 @media (max-width: 1024px) {
   .compound {
     padding: 30px 0;
-    background: url(/img/lines-rotated.svg) center 300px no-repeat;
+    background: url(../img/lines-rotated.svg) center 300px no-repeat;
     background-size: 400px;
   }
   .compound__list {
